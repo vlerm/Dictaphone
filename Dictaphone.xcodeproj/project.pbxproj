@@ -10,9 +10,12 @@
 		4FA4740F28A983DD000BA73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4740E28A983DD000BA73A /* AppDelegate.swift */; };
 		4FA4741128A983DD000BA73A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4741028A983DD000BA73A /* SceneDelegate.swift */; };
 		4FA4741328A983DD000BA73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4741228A983DD000BA73A /* ViewController.swift */; };
-		4FA4741628A983DD000BA73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4741428A983DD000BA73A /* Main.storyboard */; };
 		4FA4741828A983DE000BA73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4741728A983DE000BA73A /* Assets.xcassets */; };
 		4FA4741B28A983DE000BA73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4741928A983DE000BA73A /* LaunchScreen.storyboard */; };
+		4FA4742328A983EC000BA73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4742228A983EC000BA73A /* Main.storyboard */; };
+		4FA4742B28A98510000BA73A /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4742A28A98510000BA73A /* RecorderViewController.swift */; };
+		4FA4742D28A9851A000BA73A /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4742C28A9851A000BA73A /* Record.swift */; };
+		4FA4742F28A98529000BA73A /* VoiceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4742E28A98529000BA73A /* VoiceRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		4FA4740E28A983DD000BA73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FA4741028A983DD000BA73A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4FA4741228A983DD000BA73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FA4741528A983DD000BA73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA4741728A983DE000BA73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA4741A28A983DE000BA73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FA4741C28A983DE000BA73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA4742228A983EC000BA73A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4FA4742A28A98510000BA73A /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		4FA4742C28A9851A000BA73A /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		4FA4742E28A98529000BA73A /* VoiceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 				4FA4740E28A983DD000BA73A /* AppDelegate.swift */,
 				4FA4741028A983DD000BA73A /* SceneDelegate.swift */,
 				4FA4741228A983DD000BA73A /* ViewController.swift */,
-				4FA4741428A983DD000BA73A /* Main.storyboard */,
-				4FA4741728A983DE000BA73A /* Assets.xcassets */,
+				4FA4742A28A98510000BA73A /* RecorderViewController.swift */,
+				4FA4742E28A98529000BA73A /* VoiceRecord.swift */,
+				4FA4742C28A9851A000BA73A /* Record.swift */,
+				4FA4742228A983EC000BA73A /* Main.storyboard */,
 				4FA4741928A983DE000BA73A /* LaunchScreen.storyboard */,
+				4FA4741728A983DE000BA73A /* Assets.xcassets */,
 				4FA4741C28A983DE000BA73A /* Info.plist */,
 			);
 			path = Dictaphone;
@@ -127,7 +136,7 @@
 			files = (
 				4FA4741B28A983DE000BA73A /* LaunchScreen.storyboard in Resources */,
 				4FA4741828A983DE000BA73A /* Assets.xcassets in Resources */,
-				4FA4741628A983DD000BA73A /* Main.storyboard in Resources */,
+				4FA4742328A983EC000BA73A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +149,16 @@
 			files = (
 				4FA4741328A983DD000BA73A /* ViewController.swift in Sources */,
 				4FA4740F28A983DD000BA73A /* AppDelegate.swift in Sources */,
+				4FA4742F28A98529000BA73A /* VoiceRecord.swift in Sources */,
 				4FA4741128A983DD000BA73A /* SceneDelegate.swift in Sources */,
+				4FA4742D28A9851A000BA73A /* Record.swift in Sources */,
+				4FA4742B28A98510000BA73A /* RecorderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4FA4741428A983DD000BA73A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FA4741528A983DD000BA73A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4FA4741928A983DE000BA73A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
